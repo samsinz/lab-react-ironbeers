@@ -1,0 +1,42 @@
+.SingleBeer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 2rem;;
+}
+
+.SingleBeer img {
+    height: 20rem;
+    object-fit: contain;
+    margin: 2rem 0;
+}
+
+
+.SingleBeer .first-title {
+    display: flex;
+    justify-content: space-between;
+    font-color: #0979ca;
+
+}
+
+.SingleBeer .first-title h1:nth-of-type(2){
+    color: grey;
+    font-weight: 400;
+}
+
+
+.SingleBeer .second-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+
+}
+
+.SingleBeer .second-title h2:nth-of-type(2){
+    color: grey;
+    font-weight: 400;
+}
+
+.SingleBeer h3{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,13 @@
+.Home img {
+  width: 100%;
+}
+
+.Home p, h1, h2{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.Home p {
+  margin: 0 1rem 1rem;
+}
